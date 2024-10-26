@@ -2,7 +2,7 @@
     background-color: white;
     display: grid;
     border: none;
-    grid-template-rows: 100px 100px 100px 100px;
+    grid-template-rows: 80px 80px 80px 80px;
     grid-template-columns: repeat (4, 1fr);
     width: 500px;
     grid-template-areas:
@@ -13,8 +13,11 @@
     "aside   main   main    main"
     "footer  footer  footer  footer";
     grid-gap: 4px;
-    padding: 1em;
     margin: auto;
+}
+
+header, nav, aside, main, footer {
+    padding: 1em;
 }
 
 header {
