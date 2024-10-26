@@ -11,7 +11,7 @@
         "aside   main   main    main"
         "aside   main   main    main"
         "footer  footer  footer  footer";
-    row-gap: 3px;
+    grid-gap: 3px;
 }
 
 header {
