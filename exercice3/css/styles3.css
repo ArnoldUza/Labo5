@@ -2,12 +2,13 @@
     background-color: aqua;
     display: grid;
     grid-template-rows: 80px 80px 80px;
-    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-columns: repeat (4, 1fr);
     margin: auto;
     width: 500px;
     grid-template-areas:
         "header  header  header  header"
         "nav     nav     nav    nav"
+        "aside   main   main    main"
         "aside   main   main    main"
         "aside   main   main    main"
         "footer  footer  footer  footer";

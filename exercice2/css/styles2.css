@@ -1,6 +1,6 @@
 .puzzle {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     grid-template-areas:
         'piece01 piece01 piece02 piece03'
         'piece04 piece05 piece05 piece03'
