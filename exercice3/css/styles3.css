@@ -1,8 +1,9 @@
 #conteneur {
     background-color: aqua;
     display: grid;
+    border: none;
     grid-template-rows: 80px 80px 80px 80px;
-    
+    grid-template-rows: 1fr 1fr 1fr 1fr;
     margin: auto;
     width: 500px;
     grid-template-areas:
